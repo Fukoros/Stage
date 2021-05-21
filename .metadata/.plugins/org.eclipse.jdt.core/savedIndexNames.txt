@@ -1,0 +1,19 @@
+INDEX VERSION 1.131+C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\.metadata\.plugins\org.eclipse.jdt.core
+2367398519.index
+2318589450.index
+1081803977.index
+435778357.index
+1671692264.index
+1601962006.index
+2814489825.index
+2210253769.index
+3957007777.index
+3209870558.index
+1907579131.index
+3976632136.index
+2279295526.index
+1547105519.index
+2234910478.index
+4132928820.index
+920878222.index
+3955021514.index

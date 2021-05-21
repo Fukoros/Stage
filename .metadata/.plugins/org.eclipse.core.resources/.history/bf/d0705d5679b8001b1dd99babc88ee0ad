@@ -1,0 +1,11 @@
+package amie.mining.assistant;
+
+import amie.data.KB;
+
+public class MiningAssistantThibaut extends MiningAssistant {
+
+	public MiningAssistantThibaut(KB dataSource) {
+		super(dataSource);
+	}
+
+}

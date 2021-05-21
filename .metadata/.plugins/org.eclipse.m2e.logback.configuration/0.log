@@ -1,0 +1,645 @@
+2021-05-19 09:43:12,132 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-05-19 09:44:16,327 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+2021-05-19 09:44:16,422 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+2021-05-19 09:44:16,609 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+2021-05-19 09:44:16,671 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+2021-05-19 09:44:16,761 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+2021-05-19 09:44:16,862 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+2021-05-19 09:44:16,984 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.jar
+2021-05-19 09:44:17,022 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.jar
+2021-05-19 09:44:17,271 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+2021-05-19 09:44:17,289 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+2021-05-19 09:44:17,303 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+2021-05-19 09:44:17,322 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+2021-05-19 09:44:17,395 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom
+2021-05-19 09:44:17,413 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom
+2021-05-19 09:44:17,424 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.9/maven-2.0.9.pom
+2021-05-19 09:44:17,443 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.9/maven-2.0.9.pom
+2021-05-19 09:44:17,453 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/8/maven-parent-8.pom
+2021-05-19 09:44:17,470 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/8/maven-parent-8.pom
+2021-05-19 09:44:17,497 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.pom
+2021-05-19 09:44:17,514 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.pom
+2021-05-19 09:44:17,525 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.pom
+2021-05-19 09:44:17,542 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.pom
+2021-05-19 09:44:17,566 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.pom
+2021-05-19 09:44:17,585 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.pom
+2021-05-19 09:44:17,599 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.pom
+2021-05-19 09:44:17,617 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.pom
+2021-05-19 09:44:17,627 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.pom
+2021-05-19 09:44:17,644 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.pom
+2021-05-19 09:44:17,655 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.pom
+2021-05-19 09:44:17,673 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.pom
+2021-05-19 09:44:17,685 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.pom
+2021-05-19 09:44:17,703 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.pom
+2021-05-19 09:44:17,715 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.pom
+2021-05-19 09:44:17,733 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.pom
+2021-05-19 09:44:17,744 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.pom
+2021-05-19 09:44:17,761 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.pom
+2021-05-19 09:44:17,772 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.pom
+2021-05-19 09:44:17,789 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.pom
+2021-05-19 09:44:17,801 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.pom
+2021-05-19 09:44:17,818 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.pom
+2021-05-19 09:44:17,830 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom
+2021-05-19 09:44:17,847 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom
+2021-05-19 09:44:17,858 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.pom
+2021-05-19 09:44:17,877 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.pom
+2021-05-19 09:44:17,888 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.pom
+2021-05-19 09:44:17,905 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.pom
+2021-05-19 09:44:17,917 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.pom
+2021-05-19 09:44:17,934 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.pom
+2021-05-19 09:44:18,905 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom
+2021-05-19 09:44:18,920 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom
+2021-05-19 09:44:18,927 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom
+2021-05-19 09:44:18,942 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom
+2021-05-19 09:44:19,026 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom
+2021-05-19 09:44:19,042 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom
+2021-05-19 09:44:19,053 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom
+2021-05-19 09:44:19,069 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom
+2021-05-19 09:44:19,077 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
+2021-05-19 09:44:19,092 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
+2021-05-19 09:44:19,102 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.pom
+2021-05-19 09:44:19,119 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.pom
+2021-05-19 09:44:19,143 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.pom
+2021-05-19 09:44:19,158 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.pom
+2021-05-19 09:44:19,182 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.pom
+2021-05-19 09:44:19,198 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.pom
+2021-05-19 09:44:19,209 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/xbean/xbean/3.4/xbean-3.4.pom
+2021-05-19 09:44:19,224 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/xbean/xbean/3.4/xbean-3.4.pom
+2021-05-19 09:44:19,234 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.pom
+2021-05-19 09:44:19,251 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.pom
+2021-05-19 09:44:19,260 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.pom
+2021-05-19 09:44:19,277 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.pom
+2021-05-19 09:44:19,293 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.pom
+2021-05-19 09:44:19,309 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.pom
+2021-05-19 09:44:19,322 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/google/1/google-1.pom
+2021-05-19 09:44:19,344 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/google/1/google-1.pom
+2021-05-19 09:44:19,353 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/3.8.2/junit-3.8.2.pom
+2021-05-19 09:44:19,373 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/3.8.2/junit-3.8.2.pom
+2021-05-19 09:44:19,415 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar
+2021-05-19 09:44:19,478 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.jar
+2021-05-19 09:44:19,485 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.jar
+2021-05-19 09:44:19,510 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.jar
+2021-05-19 09:44:19,516 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.jar
+2021-05-19 09:44:19,544 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.jar
+2021-05-19 09:44:19,549 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.jar
+2021-05-19 09:44:19,574 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.jar
+2021-05-19 09:44:19,579 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.jar
+2021-05-19 09:44:19,689 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.jar
+2021-05-19 09:44:19,696 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.jar
+2021-05-19 09:44:19,747 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.jar
+2021-05-19 09:44:19,753 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.jar
+2021-05-19 09:44:19,841 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.jar
+2021-05-19 09:44:19,847 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.jar
+2021-05-19 09:44:19,872 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.jar
+2021-05-19 09:44:19,878 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.jar
+2021-05-19 09:44:19,932 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.jar
+2021-05-19 09:44:19,938 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.jar
+2021-05-19 09:44:19,990 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.jar
+2021-05-19 09:44:19,998 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.jar
+2021-05-19 09:44:20,022 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.jar
+2021-05-19 09:44:20,027 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar
+2021-05-19 09:44:20,099 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar
+2021-05-19 09:44:20,103 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.jar
+2021-05-19 09:44:20,195 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.jar
+2021-05-19 09:44:20,201 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.jar
+2021-05-19 09:44:20,221 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.jar
+2021-05-19 09:44:20,227 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.jar
+2021-05-19 09:44:20,274 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.jar
+2021-05-19 09:44:20,280 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.jar
+2021-05-19 09:44:20,302 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.jar
+2021-05-19 09:44:20,309 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.jar
+2021-05-19 09:44:20,333 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.jar
+2021-05-19 09:44:20,338 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+2021-05-19 09:44:20,371 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+2021-05-19 09:44:20,377 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar
+2021-05-19 09:44:20,457 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar
+2021-05-19 09:44:20,462 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.jar
+2021-05-19 09:44:20,495 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.jar
+2021-05-19 09:44:20,501 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.jar
+2021-05-19 09:44:20,563 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.jar
+2021-05-19 09:44:20,567 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar
+2021-05-19 09:44:20,592 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar
+2021-05-19 09:44:20,597 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.jar
+2021-05-19 09:44:20,744 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.jar
+2021-05-19 09:44:20,750 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar
+2021-05-19 09:44:20,773 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar
+2021-05-19 09:44:20,778 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.jar
+2021-05-19 09:44:20,808 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.jar
+2021-05-19 09:44:20,813 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar
+2021-05-19 09:44:20,933 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar
+2021-05-19 09:44:20,940 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.jar
+2021-05-19 09:44:20,986 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.jar
+2021-05-19 09:44:20,991 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/3.8.2/junit-3.8.2.jar
+2021-05-19 09:44:21,014 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/3.8.2/junit-3.8.2.jar
+2021-05-19 09:44:23,295 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.enst.dbweb:mining:2.0 @ C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\pom.xml.
+2021-05-19 09:44:23,362 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.pom
+2021-05-19 09:44:23,419 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.pom
+2021-05-19 09:44:23,470 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-parsers/2.3.3/nxparser-parsers-2.3.3.pom
+2021-05-19 09:44:23,487 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-parsers/2.3.3/nxparser-parsers-2.3.3.pom
+2021-05-19 09:44:23,497 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser/2.3.3/nxparser-2.3.3.pom
+2021-05-19 09:44:23,514 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser/2.3.3/nxparser-2.3.3.pom
+2021-05-19 09:44:23,525 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-api/2.3.3/nxparser-api-2.3.3.pom
+2021-05-19 09:44:23,542 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-api/2.3.3/nxparser-api-2.3.3.pom
+2021-05-19 09:44:23,555 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-model/2.3.3/nxparser-model-2.3.3.pom
+2021-05-19 09:44:23,571 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-model/2.3.3/nxparser-model-2.3.3.pom
+2021-05-19 09:44:23,583 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-commons/2.3.3/nxparser-commons-2.3.3.pom
+2021-05-19 09:44:23,598 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-commons/2.3.3/nxparser-commons-2.3.3.pom
+2021-05-19 09:44:23,607 [Worker-17: Importing Maven projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for de.mpg.mpi-inf:javatools:jar:1.0-SNAPSHOT is missing, no dependency information available
+2021-05-19 09:44:23,615 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/8.3.0/fastutil-8.3.0.pom
+2021-05-19 09:44:23,632 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/8.3.0/fastutil-8.3.0.pom
+2021-05-19 09:44:23,638 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rules: fr.enst.dbweb:rules:1.0 with classifier  to /rules/target/classes
+2021-05-19 09:44:23,638 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:23,646 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.jar
+2021-05-19 09:44:23,676 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.jar
+2021-05-19 09:44:23,683 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-parsers/2.3.3/nxparser-parsers-2.3.3.jar
+2021-05-19 09:44:23,712 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-parsers/2.3.3/nxparser-parsers-2.3.3.jar
+2021-05-19 09:44:23,718 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-api/2.3.3/nxparser-api-2.3.3.jar
+2021-05-19 09:44:23,747 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-api/2.3.3/nxparser-api-2.3.3.jar
+2021-05-19 09:44:23,752 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-model/2.3.3/nxparser-model-2.3.3.jar
+2021-05-19 09:44:23,863 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-model/2.3.3/nxparser-model-2.3.3.jar
+2021-05-19 09:44:23,868 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-commons/2.3.3/nxparser-commons-2.3.3.jar
+2021-05-19 09:44:23,901 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-commons/2.3.3/nxparser-commons-2.3.3.jar
+2021-05-19 09:44:23,905 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/8.3.0/fastutil-8.3.0.jar
+2021-05-19 09:44:24,305 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/8.3.0/fastutil-8.3.0.jar
+2021-05-19 09:44:24,716 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.jar
+2021-05-19 09:44:24,740 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.jar
+2021-05-19 09:44:24,781 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.enst.dbweb:typing:1.0 @ C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\typing\pom.xml.
+2021-05-19 09:44:24,789 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht-core/1.0.1/jgrapht-core-1.0.1.pom
+2021-05-19 09:44:24,806 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht-core/1.0.1/jgrapht-core-1.0.1.pom
+2021-05-19 09:44:24,815 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht/1.0.1/jgrapht-1.0.1.pom
+2021-05-19 09:44:24,831 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht/1.0.1/jgrapht-1.0.1.pom
+2021-05-19 09:44:24,854 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom
+2021-05-19 09:44:24,871 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom
+2021-05-19 09:44:24,886 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+2021-05-19 09:44:24,905 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+2021-05-19 09:44:24,917 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:24,929 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht-core/1.0.1/jgrapht-core-1.0.1.jar
+2021-05-19 09:44:24,953 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht-core/1.0.1/jgrapht-core-1.0.1.jar
+2021-05-19 09:44:24,961 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar
+2021-05-19 09:44:25,005 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar
+2021-05-19 09:44:25,088 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.enst.dbweb:rules:1.0 @ C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\pom.xml.
+2021-05-19 09:44:25,091 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:25,098 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: fr.enst.dbweb:amie:2.0 @ C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\pom.xml.
+2021-05-19 09:44:25,126 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.enst.dbweb:rosa:1.0 @ C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rosa\pom.xml.
+2021-05-19 09:44:25,130 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/mining: fr.enst.dbweb:mining:2.0 with classifier  to /mining/target/classes
+2021-05-19 09:44:25,131 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rules: fr.enst.dbweb:rules:1.0 with classifier  to /rules/target/classes
+2021-05-19 09:44:25,131 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:25,155 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.2/maven-compiler-plugin-3.2.jar
+2021-05-19 09:44:25,243 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.2/maven-compiler-plugin-3.2.jar
+2021-05-19 09:44:25,368 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.2/maven-compiler-plugin-3.2.pom
+2021-05-19 09:44:25,384 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.2/maven-compiler-plugin-3.2.pom
+2021-05-19 09:44:25,394 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom
+2021-05-19 09:44:25,413 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom
+2021-05-19 09:44:25,460 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.4/plexus-compiler-api-2.4.pom
+2021-05-19 09:44:25,477 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.4/plexus-compiler-api-2.4.pom
+2021-05-19 09:44:25,486 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.4/plexus-compiler-2.4.pom
+2021-05-19 09:44:25,503 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.4/plexus-compiler-2.4.pom
+2021-05-19 09:44:25,542 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.4/plexus-compiler-manager-2.4.pom
+2021-05-19 09:44:25,558 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.4/plexus-compiler-manager-2.4.pom
+2021-05-19 09:44:25,568 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.4/plexus-compiler-javac-2.4.pom
+2021-05-19 09:44:25,585 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.4/plexus-compiler-javac-2.4.pom
+2021-05-19 09:44:25,594 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.4/plexus-compilers-2.4.pom
+2021-05-19 09:44:25,611 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.4/plexus-compilers-2.4.pom
+2021-05-19 09:44:25,639 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.4/plexus-compiler-api-2.4.jar
+2021-05-19 09:44:25,732 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.4/plexus-compiler-api-2.4.jar
+2021-05-19 09:44:25,737 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.4/plexus-compiler-manager-2.4.jar
+2021-05-19 09:44:25,775 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.4/plexus-compiler-manager-2.4.jar
+2021-05-19 09:44:25,780 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.4/plexus-compiler-javac-2.4.jar
+2021-05-19 09:44:25,828 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.4/plexus-compiler-javac-2.4.jar
+2021-05-19 09:44:26,062 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.enst.dbweb:kb:1.0 @ C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\kb\pom.xml.
+2021-05-19 09:44:26,094 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.enst.dbweb:mining:2.0 @ C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\pom.xml.
+2021-05-19 09:44:26,097 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rules: fr.enst.dbweb:rules:1.0 with classifier  to /rules/target/classes
+2021-05-19 09:44:26,097 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:26,127 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.enst.dbweb:typing:1.0 @ C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\typing\pom.xml.
+2021-05-19 09:44:26,130 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:26,163 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.enst.dbweb:rules:1.0 @ C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\pom.xml.
+2021-05-19 09:44:26,165 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:26,197 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.enst.dbweb:rosa:1.0 @ C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rosa\pom.xml.
+2021-05-19 09:44:26,199 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/mining: fr.enst.dbweb:mining:2.0 with classifier  to /mining/target/classes
+2021-05-19 09:44:26,200 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rules: fr.enst.dbweb:rules:1.0 with classifier  to /rules/target/classes
+2021-05-19 09:44:26,200 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:26,235 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.enst.dbweb:mining:2.0 @ C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\pom.xml.
+2021-05-19 09:44:26,237 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rules: fr.enst.dbweb:rules:1.0 with classifier  to /rules/target/classes
+2021-05-19 09:44:26,238 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:26,270 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.enst.dbweb:rosa:1.0 @ C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rosa\pom.xml.
+2021-05-19 09:44:26,272 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/mining: fr.enst.dbweb:mining:2.0 with classifier  to /mining/target/classes
+2021-05-19 09:44:26,273 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rules: fr.enst.dbweb:rules:1.0 with classifier  to /rules/target/classes
+2021-05-19 09:44:26,273 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:27,169 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kb/src/main/java
+2021-05-19 09:44:27,176 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kb/src/test/java
+2021-05-19 09:44:27,410 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /rules/src/main/java
+2021-05-19 09:44:27,414 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /rules/src/test/java
+2021-05-19 09:44:27,488 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mining/src/main/java
+2021-05-19 09:44:27,488 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mining/src/test/java
+2021-05-19 09:44:27,563 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /typing/src/main/java
+2021-05-19 09:44:27,568 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /typing/src/test/java
+2021-05-19 09:44:27,630 [Worker-22: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for de.mpg.mpi-inf:javatools:jar:1.0-SNAPSHOT is missing, no dependency information available
+2021-05-19 09:44:27,635 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rules: fr.enst.dbweb:rules:1.0 with classifier  to /rules/target/classes
+2021-05-19 09:44:27,636 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:27,655 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /rosa/src/main/java
+2021-05-19 09:44:27,656 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /rosa/src/test/java
+2021-05-19 09:44:27,712 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+2021-05-19 09:44:27,717 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 6 project(s) in 12 sec
+2021-05-19 09:44:27,768 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+2021-05-19 09:44:27,810 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2021-05-19 09:44:27,880 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1-sources.jar
+2021-05-19 09:44:27,937 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1-sources.jar
+2021-05-19 09:44:27,994 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-cli:commons-cli:1.3.1
+2021-05-19 09:44:28,166 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-parsers/2.3.3/nxparser-parsers-2.3.3-sources.jar
+2021-05-19 09:44:28,283 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-parsers/2.3.3/nxparser-parsers-2.3.3-sources.jar
+2021-05-19 09:44:28,321 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-parsers:2.3.3
+2021-05-19 09:44:28,475 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-api/2.3.3/nxparser-api-2.3.3-sources.jar
+2021-05-19 09:44:28,589 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-api/2.3.3/nxparser-api-2.3.3-sources.jar
+2021-05-19 09:44:28,630 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-api:2.3.3
+2021-05-19 09:44:28,681 [Worker-8: Auto share git projects] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, Le fichier spécifié est introuvable
+2021-05-19 09:44:28,782 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-model/2.3.3/nxparser-model-2.3.3-sources.jar
+2021-05-19 09:44:29,101 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-model/2.3.3/nxparser-model-2.3.3-sources.jar
+2021-05-19 09:44:29,378 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-model:2.3.3
+2021-05-19 09:44:29,538 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-commons/2.3.3/nxparser-commons-2.3.3-sources.jar
+2021-05-19 09:44:29,562 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for de.mpg.mpi-inf:javatools:jar:1.0-SNAPSHOT is missing, no dependency information available
+2021-05-19 09:44:29,606 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:29,606 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\kb\src\main\resources
+2021-05-19 09:44:29,609 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:29,609 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\kb\src\test\resources
+2021-05-19 09:44:29,656 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for de.mpg.mpi-inf:javatools:jar:1.0-SNAPSHOT is missing, no dependency information available
+2021-05-19 09:44:29,661 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:29,669 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/semanticweb/yars/nxparser-commons/2.3.3/nxparser-commons-2.3.3-sources.jar
+2021-05-19 09:44:29,671 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:29,671 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 09:44:29,673 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:29,673 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 09:44:29,692 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:29,692 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\src\main\resources
+2021-05-19 09:44:29,693 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:29,694 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\src\test\resources
+2021-05-19 09:44:29,725 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-commons:2.3.3
+2021-05-19 09:44:29,742 [Worker-22: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for de.mpg.mpi-inf:javatools:1.0-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact de.mpg.mpi-inf:javatools:jar:sources:1.0-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:805) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:750) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.600.v20191122-2104.jar:na]
+2021-05-19 09:44:29,759 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for de.mpg.mpi-inf:javatools:jar:1.0-SNAPSHOT is missing, no dependency information available
+2021-05-19 09:44:29,764 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/mining: fr.enst.dbweb:mining:2.0 with classifier  to /mining/target/classes
+2021-05-19 09:44:29,765 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rules: fr.enst.dbweb:rules:1.0 with classifier  to /rules/target/classes
+2021-05-19 09:44:29,765 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:29,774 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:29,774 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rosa\src\main\resources
+2021-05-19 09:44:29,775 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:29,776 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rosa\src\test\resources
+2021-05-19 09:44:29,817 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for de.mpg.mpi-inf:javatools:jar:1.0-SNAPSHOT is missing, no dependency information available
+2021-05-19 09:44:29,818 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/8.3.0/fastutil-8.3.0-sources.jar
+2021-05-19 09:44:29,844 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:29,859 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:29,859 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\typing\src\main\resources
+2021-05-19 09:44:29,861 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:29,861 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\typing\src\test\resources
+2021-05-19 09:44:30,194 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil/8.3.0/fastutil-8.3.0-sources.jar
+2021-05-19 09:44:30,236 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for it.unimi.dsi:fastutil:8.3.0
+2021-05-19 09:44:30,241 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2021-05-19 09:44:30,244 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-cli:commons-cli:1.3.1
+2021-05-19 09:44:30,247 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-parsers:2.3.3
+2021-05-19 09:44:30,251 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-api:2.3.3
+2021-05-19 09:44:30,254 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-model:2.3.3
+2021-05-19 09:44:30,257 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-commons:2.3.3
+2021-05-19 09:44:30,261 [Worker-22: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for de.mpg.mpi-inf:javatools:1.0-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact de.mpg.mpi-inf:javatools:jar:javadoc:1.0-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:805) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:750) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.600.v20191122-2104.jar:na]
+2021-05-19 09:44:30,266 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for it.unimi.dsi:fastutil:8.3.0
+2021-05-19 09:44:30,335 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht-core/1.0.1/jgrapht-core-1.0.1-sources.jar
+2021-05-19 09:44:30,415 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jgrapht/jgrapht-core/1.0.1/jgrapht-core-1.0.1-sources.jar
+2021-05-19 09:44:30,463 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jgrapht:jgrapht-core:1.0.1
+2021-05-19 09:44:30,540 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar
+2021-05-19 09:44:30,689 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar
+2021-05-19 09:44:30,732 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-math3:3.2
+2021-05-19 09:44:30,736 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2021-05-19 09:44:30,739 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-parsers:2.3.3
+2021-05-19 09:44:30,743 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-api:2.3.3
+2021-05-19 09:44:30,746 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-model:2.3.3
+2021-05-19 09:44:30,750 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-commons:2.3.3
+2021-05-19 09:44:30,757 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for it.unimi.dsi:fastutil:8.3.0
+2021-05-19 09:44:30,772 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2021-05-19 09:44:30,778 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2021-05-19 09:44:30,783 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-cli:commons-cli:1.3.1
+2021-05-19 09:44:30,787 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-parsers:2.3.3
+2021-05-19 09:44:30,790 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-api:2.3.3
+2021-05-19 09:44:30,794 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-model:2.3.3
+2021-05-19 09:44:30,797 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-commons:2.3.3
+2021-05-19 09:44:30,804 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for it.unimi.dsi:fastutil:8.3.0
+2021-05-19 09:44:30,822 [Worker-22: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for de.mpg.mpi-inf:javatools:jar:1.0-SNAPSHOT is missing, no dependency information available
+2021-05-19 09:44:30,833 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2021-05-19 09:44:30,836 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-parsers:2.3.3
+2021-05-19 09:44:30,839 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-api:2.3.3
+2021-05-19 09:44:30,843 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-model:2.3.3
+2021-05-19 09:44:30,846 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-commons:2.3.3
+2021-05-19 09:44:30,852 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for it.unimi.dsi:fastutil:8.3.0
+2021-05-19 09:44:30,857 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2021-05-19 09:44:30,861 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-parsers:2.3.3
+2021-05-19 09:44:30,864 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-api:2.3.3
+2021-05-19 09:44:30,869 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-model:2.3.3
+2021-05-19 09:44:30,872 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-commons:2.3.3
+2021-05-19 09:44:30,876 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for it.unimi.dsi:fastutil:8.3.0
+2021-05-19 09:44:30,879 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2021-05-19 09:44:30,882 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-parsers:2.3.3
+2021-05-19 09:44:30,885 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-api:2.3.3
+2021-05-19 09:44:30,889 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-model:2.3.3
+2021-05-19 09:44:30,892 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-commons:2.3.3
+2021-05-19 09:44:30,899 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for it.unimi.dsi:fastutil:8.3.0
+2021-05-19 09:44:30,929 [Worker-22: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for de.mpg.mpi-inf:javatools:jar:1.0-SNAPSHOT is missing, no dependency information available
+2021-05-19 09:44:30,933 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rules: fr.enst.dbweb:rules:1.0 with classifier  to /rules/target/classes
+2021-05-19 09:44:30,933 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:30,941 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2021-05-19 09:44:30,945 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-cli:commons-cli:1.3.1
+2021-05-19 09:44:30,948 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-parsers:2.3.3
+2021-05-19 09:44:30,952 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-api:2.3.3
+2021-05-19 09:44:30,956 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-model:2.3.3
+2021-05-19 09:44:30,959 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-commons:2.3.3
+2021-05-19 09:44:30,966 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for it.unimi.dsi:fastutil:8.3.0
+2021-05-19 09:44:30,999 [Worker-22: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for de.mpg.mpi-inf:javatools:jar:1.0-SNAPSHOT is missing, no dependency information available
+2021-05-19 09:44:31,020 [Worker-22: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:31,029 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2021-05-19 09:44:31,033 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-cli:commons-cli:1.3.1
+2021-05-19 09:44:31,038 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-parsers:2.3.3
+2021-05-19 09:44:31,041 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-api:2.3.3
+2021-05-19 09:44:31,045 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-model:2.3.3
+2021-05-19 09:44:31,047 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-commons:2.3.3
+2021-05-19 09:44:31,054 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for it.unimi.dsi:fastutil:8.3.0
+2021-05-19 09:44:31,058 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jgrapht:jgrapht-core:1.0.1
+2021-05-19 09:44:31,061 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-math3:3.2
+2021-05-19 09:44:31,065 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2021-05-19 09:44:31,069 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-cli:commons-cli:1.3.1
+2021-05-19 09:44:31,074 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-parsers:2.3.3
+2021-05-19 09:44:31,078 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-api:2.3.3
+2021-05-19 09:44:31,083 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-model:2.3.3
+2021-05-19 09:44:31,088 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.semanticweb.yars:nxparser-commons:2.3.3
+2021-05-19 09:44:31,096 [Worker-22: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for it.unimi.dsi:fastutil:8.3.0
+2021-05-19 09:44:31,950 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for de.mpg.mpi-inf:javatools:jar:1.0-SNAPSHOT is missing, no dependency information available
+2021-05-19 09:44:31,960 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:31,960 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\kb\src\main\resources
+2021-05-19 09:44:31,961 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:31,961 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\kb\src\test\resources
+2021-05-19 09:44:31,982 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for de.mpg.mpi-inf:javatools:jar:1.0-SNAPSHOT is missing, no dependency information available
+2021-05-19 09:44:31,985 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:31,990 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:31,990 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 09:44:31,991 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:31,991 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 09:44:32,021 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for de.mpg.mpi-inf:javatools:jar:1.0-SNAPSHOT is missing, no dependency information available
+2021-05-19 09:44:32,026 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rules: fr.enst.dbweb:rules:1.0 with classifier  to /rules/target/classes
+2021-05-19 09:44:32,027 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:32,035 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:32,036 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\src\main\resources
+2021-05-19 09:44:32,039 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:32,039 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\src\test\resources
+2021-05-19 09:44:32,075 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for de.mpg.mpi-inf:javatools:jar:1.0-SNAPSHOT is missing, no dependency information available
+2021-05-19 09:44:32,079 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/mining: fr.enst.dbweb:mining:2.0 with classifier  to /mining/target/classes
+2021-05-19 09:44:32,080 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rules: fr.enst.dbweb:rules:1.0 with classifier  to /rules/target/classes
+2021-05-19 09:44:32,080 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:32,087 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:32,088 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rosa\src\main\resources
+2021-05-19 09:44:32,089 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:32,089 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rosa\src\test\resources
+2021-05-19 09:44:32,125 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for de.mpg.mpi-inf:javatools:jar:1.0-SNAPSHOT is missing, no dependency information available
+2021-05-19 09:44:32,143 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier  to /kb/target/classes
+2021-05-19 09:44:32,150 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:32,150 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\typing\src\main\resources
+2021-05-19 09:44:32,151 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 09:44:32,151 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\typing\src\test\resources
+2021-05-19 10:04:36,186 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:04:36,187 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\kb\src\main\resources
+2021-05-19 10:04:36,188 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:04:36,188 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\kb\src\test\resources
+2021-05-19 10:04:36,193 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:04:36,193 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 10:04:36,194 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:04:36,194 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 10:04:36,198 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:04:36,198 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\src\main\resources
+2021-05-19 10:04:36,200 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:04:36,200 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\src\test\resources
+2021-05-19 10:04:36,204 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:04:36,205 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rosa\src\main\resources
+2021-05-19 10:04:36,205 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:04:36,206 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rosa\src\test\resources
+2021-05-19 10:04:36,210 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:04:36,210 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\typing\src\main\resources
+2021-05-19 10:04:36,211 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:04:36,211 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\typing\src\test\resources
+2021-05-19 10:05:15,372 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:05:15,373 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\src\main\resources
+2021-05-19 10:05:15,374 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:05:15,375 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\src\test\resources
+2021-05-19 10:05:51,395 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:05:51,395 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\src\main\resources
+2021-05-19 10:05:51,396 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:05:51,397 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\src\test\resources
+2021-05-19 10:06:25,353 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:06:25,353 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\src\main\resources
+2021-05-19 10:06:25,355 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:06:25,355 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\src\test\resources
+2021-05-19 10:06:45,926 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:06:45,927 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\src\main\resources
+2021-05-19 10:06:45,927 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:06:45,927 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\src\test\resources
+2021-05-19 10:08:04,681 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:08:04,681 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\src\main\resources
+2021-05-19 10:08:04,682 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:08:04,682 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\mining\src\test\resources
+2021-05-19 10:24:14,721 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:24:14,721 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 10:24:14,721 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:24:14,722 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 10:24:24,279 [Worker-39: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:24:24,311 [Worker-39: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:24:24,343 [Worker-39: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:29:58,239 [Worker-39: Launching AMIEParser] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:29:58,239 [Worker-39: Launching AMIEParser] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 10:29:58,240 [Worker-39: Launching AMIEParser] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:29:58,240 [Worker-39: Launching AMIEParser] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 10:29:59,714 [Worker-39: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:29:59,745 [Worker-39: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:29:59,778 [Worker-39: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:30:09,670 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:30:09,670 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 10:30:09,672 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:30:09,672 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 10:30:14,664 [Worker-42: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:30:14,697 [Worker-42: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:30:14,725 [Worker-42: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:30:32,544 [Worker-39: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:30:32,570 [Worker-39: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:30:32,596 [Worker-39: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:30:45,873 [Worker-38: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:30:45,904 [Worker-38: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:30:45,935 [Worker-38: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:33:09,526 [Worker-36: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:33:09,556 [Worker-36: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:33:09,585 [Worker-36: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:34:16,508 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:34:16,508 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 10:34:16,509 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:34:16,509 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 10:34:20,589 [Worker-39: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:34:20,618 [Worker-39: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:34:20,648 [Worker-39: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:37:23,205 [Worker-46: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:37:23,233 [Worker-46: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:37:23,260 [Worker-46: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:38:24,222 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:38:24,223 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 10:38:24,224 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:38:24,224 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 10:38:46,640 [Worker-42: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:38:46,666 [Worker-42: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:38:46,692 [Worker-42: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:46:40,799 [Worker-38: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:46:40,828 [Worker-38: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:46:40,856 [Worker-38: Launching AMIEParser] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/kb: fr.enst.dbweb:kb:1.0 with classifier null to /kb/target/classes
+2021-05-19 10:46:46,337 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:46:46,337 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 10:46:46,338 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:46:46,338 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 10:49:37,777 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:49:37,777 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 10:49:37,778 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:49:37,779 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 10:49:40,515 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:49:40,515 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 10:49:40,518 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:49:40,518 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 10:49:41,577 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:49:41,577 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 10:49:41,578 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:49:41,579 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 10:49:41,989 [main] ERROR o.e.m.j.u.i.DownloadSourcesActionDelegate - Could not schedule source download
+org.eclipse.jdt.core.JavaModelException: rules/target/classes/amie/rules [in amie] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:530) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceAttachmentPath(PackageFragmentRoot.java:655) ~[na:na]
+	at org.eclipse.m2e.jdt.ui.internal.DownloadSourcesActionDelegate.setActiveEditor(DownloadSourcesActionDelegate.java:53) ~[na:na]
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:69) ~[na:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:78) ~[na:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:124) ~[na:na]
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:338) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:326) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage.access$2(WorkbenchPage.java:307) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:215) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$3.run(PartServiceImpl.java:253) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.10.600.v20191004-1420.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:250) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:774) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:683) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:678) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3215) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3112) ~[na:na]
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72) ~[org.eclipse.swt.win32.win32.x86_64_3.113.0.v20191204-0601.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3110) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3080) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3071) ~[na:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:376) ~[na:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:182) ~[na:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:285) ~[na:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:251) ~[na:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274) ~[na:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252) ~[na:na]
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:381) ~[na:na]
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$4.open(PackageExplorerPart.java:553) ~[na:na]
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48) ~[na:na]
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:797) ~[org.eclipse.jface_3.18.0.v20191122-2109.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.10.600.v20191004-1420.jar:na]
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47) ~[na:na]
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174) ~[org.eclipse.jface_3.18.0.v20191122-2109.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:794) ~[org.eclipse.jface_3.18.0.v20191122-2109.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1110) ~[org.eclipse.jface_3.18.0.v20191122-2109.jar:na]
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275) ~[org.eclipse.jface_3.18.0.v20191122-2109.jar:na]
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:270) ~[org.eclipse.jface_3.18.0.v20191122-2109.jar:na]
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:310) ~[org.eclipse.jface_3.18.0.v20191122-2109.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.113.0.v20191204-0601.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175) ~[org.eclipse.swt.win32.win32.x86_64_3.113.0.v20191204-0601.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057) ~[org.eclipse.swt.win32.win32.x86_64_3.113.0.v20191204-0601.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988) ~[org.eclipse.swt.win32.win32.x86_64_3.113.0.v20191204-0601.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587) ~[org.eclipse.swt.win32.win32.x86_64_3.113.0.v20191204-0601.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559) ~[na:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154) ~[na:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203) ~[org.eclipse.equinox.app_1.4.300.v20190815-1535.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) ~[org.eclipse.osgi_3.15.100.v20191114-1701.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) ~[org.eclipse.osgi_3.15.100.v20191114-1701.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401) ~[org.eclipse.osgi_3.15.100.v20191114-1701.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255) ~[org.eclipse.osgi_3.15.100.v20191114-1701.jar:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657) ~[org.eclipse.equinox.launcher_1.5.600.v20191014-2022.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594) ~[org.eclipse.equinox.launcher_1.5.600.v20191014-2022.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465) ~[org.eclipse.equinox.launcher_1.5.600.v20191014-2022.jar:na]
+2021-05-19 10:50:44,950 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:50:44,951 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 10:50:44,951 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:50:44,951 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 10:51:41,670 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:51:41,670 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 10:51:41,670 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:51:41,671 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 10:51:42,727 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:51:42,727 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 10:51:42,727 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:51:42,728 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 10:52:48,475 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:52:48,475 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 10:52:48,476 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:52:48,476 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 10:52:49,482 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:52:49,483 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 10:52:49,483 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:52:49,483 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 10:53:44,113 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:53:44,113 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 10:53:44,114 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:53:44,114 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 10:53:45,120 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:53:45,120 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\main\resources
+2021-05-19 10:53:45,121 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-19 10:53:45,121 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Thibaut\Desktop\FAC\M1 - DS\Stage\amie\rules\src\test\resources
+2021-05-19 11:00:20,550 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-19 11:00:21,590 [Worker-0: Decoration Calculation] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, Le fichier spécifié est introuvable
