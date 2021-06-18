@@ -1,0 +1,7 @@
+Pour hc: -minhc 0.1
+Pour conf: -minc 0.1       (ou -minpca si tu veux la conf de pca)
+Pour la longueur: -maxad 4
+
+(Pour les chiffres, j'ai mis des exemples c'est tous) 
+la commande complète sera donc :
+java -jar .\bin\amie3.jar .\fileName -minhc 0.1  -minc 0.1 -maxad 4
