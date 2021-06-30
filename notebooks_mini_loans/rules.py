@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from os import path
 
 class Atom:
     
@@ -131,3 +132,13 @@ def add_parameters(amie_responses, parameters):
                     name += "\n"+"hC"+"="+str(sub_para[1])
             new_responses[name] = new_response
     return new_responses
+
+
+def save_sets_rule(root, set_rules):
+    if not path.isdir(root+"/save"):
+        os.mkdir(root+"/save")
+    else : 
+        shutil.rmtree(root+"/save")
+        os.mkdir(root+"/save")
+    for set_rule in set_rules:
+        set_rules[set_rule].to_csv(root+"/save/"+set_rule+".tsv")

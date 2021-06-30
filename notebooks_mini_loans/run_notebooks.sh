@@ -11,7 +11,7 @@ eval "$(conda shell.bash hook)"
 # run Jupyter Notebooks to download, clean, and standardize data for the knowledge graph
 # To check for any errors, look at the executed notebooks in the $LOGDIR directory
 
-for f in T*.ipynb 
+for f in *.ipynb 
 do 
   echo "Processing $f file.."
 #   papermill $f "$LOGDIR"/$f
