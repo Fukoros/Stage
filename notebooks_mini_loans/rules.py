@@ -33,18 +33,32 @@ class Atom:
     
 class Rule:
     
-    def __init__(self, hypotheses, conclusion, otherRes):
-        if not isinstance(hypotheses, tuple):
-            self._hypotheses = tuple(hypotheses)
-        else : 
-            self._hypotheses = hypotheses
-        self._conclusion = conclusion
-        self._size_hypotheses = len(hypotheses)
-        self._headCoverage = float(otherRes[0])
-        self._stdConfidence = float(otherRes[1])
-        self._pcaConfidence = float(otherRes[2])
-        self._precision_train = None
-        self._precision_test = None
+    def __init__(self, hypotheses, conclusion, otherRes, fromDict=False):
+        if not fromDict:
+            if not isinstance(hypotheses, tuple):
+                self._hypotheses = tuple(hypotheses)
+            else : 
+                self._hypotheses = hypotheses
+            self._conclusion = conclusion
+            self._size_hypotheses = len(hypotheses)
+            self._headCoverage = float(otherRes[0])
+            self._stdConfidence = float(otherRes[1])
+            self._pcaConfidence = float(otherRes[2])
+            self._precision_train = None
+            self._precision_test = None
+        else:
+            
+            if not isinstance(hypotheses, tuple):
+                self._hypotheses = tuple(hypotheses)
+            else : 
+                self._hypotheses = hypotheses
+            self._conclusion = conclusion
+            self._size_hypotheses = len(hypotheses)
+            self._headCoverage = float(otherRes[0])
+            self._stdConfidence = float(otherRes[1])
+            self._pcaConfidence = float(otherRes[2])
+            self._precision_train = float(otherRes[3])
+            self._precision_test = float(otherRes[4])
         
         
     def __hash__(self):
@@ -103,6 +117,9 @@ class Rule:
         
     def toDict(self):
         return {"hypotheses":self._hypotheses, "conclusion":self._conclusion, "size_hypothese":self._size_hypotheses, "headCoverage":self._headCoverage, "stdConfidence":self._stdConfidence, "pcaConfidence":self._pcaConfidence, "precision_train": self._precision_train, "precision_test":self._precision_test}
+    
+    def fromDict(row):
+        return Rule( row["hypotheses"], row["conclusion"], row.values[2:], True)
             
 # Given a feature we will compare it to a threshold      
 def limit_by_threshold(X, feature, threshold):

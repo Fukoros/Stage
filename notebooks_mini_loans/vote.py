@@ -19,20 +19,30 @@ cv = 3
 
 def safe(X, rules_to_predict):
     predicted_approved = False
-    
     for rule in rules_to_predict.values:
-        if not type(rule[1].objectD) == type(False):
-            somme = sum([X[i.predicate] for i in rule[0]]) 
-            if somme == len(rule[0]):
-                predicted_approved = True
-            elif somme == 0:
-                return "Not Approved"             
-        else: 
-            if sum([X[i.predicate] == i.objectD for i in rule[0]]) == len(rule[0]):
-                if not rule[1].objectD:
+        variables=[not (hypothese.objectD == "False" or hypothese.objectD == "True") for hypothese in rule[0]]
+
+        map_variable = {}
+        rule_can_apply = True
+        for i, variable in enumerate(variables): 
+            #If we have ?b 
+            if variable:
+                if not rule[0][i].objectD in map_variable.keys():
+                    map_variable[rule[0][i].objectD] = str(X.iloc[i])
+                elif map_variable[rule[0][i].objectD] != str(X.iloc[i]):
+                    rule_can_apply = False
+            #If we have a True or False
+            else:
+                if rule[0][i].objectD != str(X.iloc[i]):
+                    rule_can_apply = False
+        if rule_can_apply:
+            if not (rule[1].objectD == "False" or rule[1].objectD == "True"):
+                if map_variable[rule[1].objectD] == "False":
                     return "Not Approved"
-                else : 
-                    predicted_approved = True
+            else:
+                if rule[1].objectD == "False":
+                    return "Not Approved"
+        
     if predicted_approved:
         return "Approved"
     else:
@@ -72,19 +82,36 @@ def expert(X, rules_to_predict):
     
     cpt = 0
     while cpt < len(rules_to_predict):
-        rule = rules_to_predict.iloc[cpt]
-        if not type(rule[1].objectD) == type(False):
-            somme = sum([X[i.predicate] for i in rule[0]]) 
-            if somme == len(rule[0]):
-                return "Approved"
-            elif somme == 0:
-                return "Not Approved"             
-        else: 
-            if sum([X[i.predicate] == i.objectD for i in rule[0]]) == len(rule[0]):
-                if rule[1].objectD:
+        
+        rule = rules_to_predict.iloc[cpt]        
+        variables=[not (hypothese.objectD == "False" or hypothese.objectD == "True") for hypothese in rule[0]]
+
+        map_variable = {}
+        rule_can_apply = True
+        for i, variable in enumerate(variables): 
+            #If we have ?b 
+            if variable:
+                if not rule[0][i].objectD in map_variable.keys():
+                    map_variable[rule[0][i].objectD] = str(X.iloc[i])
+                elif map_variable[rule[0][i].objectD] != str(X.iloc[i]):
+                    rule_can_apply = False
+            #If we have a True or False
+            else:
+                if rule[0][i].objectD != str(X.iloc[i]):
+                    rule_can_apply = False
+        if rule_can_apply:
+            if not (rule[1].objectD == "False" or rule[1].objectD == "True"):
+                if map_variable[rule[1].objectD] == "True":
                     return "Approved"
-                else : 
+                else:
                     return "Not Approved"
+            else:
+                if rule[1].objectD == "True":
+                    return "Approved"
+                else:
+                    return "Not Approved"
+        
+        cpt+=1
     return "Not Approved - No rules was able to say anything"
 
 # ---------------------------------------- Prepare certains VOTE -----------------------------------
@@ -92,44 +119,57 @@ def expert(X, rules_to_predict):
 def prepare_vote_democracy_proportional(X, rules_to_predict, proportion):
     prediction = []
     for rule in rules_to_predict.values:
-        if not type(rule[1].objectD) == type(False):
-            somme = sum([X[i.predicate] for i in rule[0]]) 
-            if somme == len(rule[0]):
-                prediction.append("True")
-            elif somme == 0:
-                prediction.append("False")
-            else :
-                prediction.append("I can't say anything")
-        else: 
-            if sum([X[i.predicate] == i.objectD for i in rule[0]]) == len(rule[0]):
-                if rule[1].objectD:
-                    prediction.append("True")
-                else :     
-                    prediction.append("False")
-            else :
-                prediction.append("I can't say anything")
+        
+        variables=[not (hypothese.objectD == "False" or hypothese.objectD == "True") for hypothese in rule[0]]
+
+        map_variable = {}
+        rule_can_apply = True
+        for i, variable in enumerate(variables): 
+            #If we have ?b 
+            if variable:
+                if not rule[0][i].objectD in map_variable.keys():
+                    map_variable[rule[0][i].objectD] = str(X.iloc[i])
+                elif map_variable[rule[0][i].objectD] != str(X.iloc[i]):
+                    rule_can_apply = False
+            #If we have a True or False
+            else:
+                if rule[0][i].objectD != str(X.iloc[i]):
+                    rule_can_apply = False
+        if rule_can_apply:
+            if not (rule[1].objectD == "False" or rule[1].objectD == "True"):
+                prediction.append(map_variable[rule[1].objectD])
+            else:
+                prediction.append(rule[1].objectD)
+        else:
+            prediction.append("I can't say anything")
     predicts = pd.Series(prediction).value_counts()    
     return democracy(predicts, proportion)
 
 def prepare_vote_democracy(X, rules_to_predict):
     prediction = []
     for rule in rules_to_predict.values:
-        if not type(rule[1].objectD) == type(False):
-            somme = sum([X[i.predicate] for i in rule[0]]) 
-            if somme == len(rule[0]):
-                prediction.append("True")
-            elif somme == 0:
-                prediction.append("False")
-            else :
-                prediction.append("I can't say anything")
-        else: 
-            if sum([X[i.predicate] == i.objectD for i in rule[0]]) == len(rule[0]):
-                if rule[1].objectD:
-                    prediction.append("True")
-                else :     
-                    prediction.append("False")
-            else :
-                prediction.append("I can't say anything")
+        variables=[not (hypothese.objectD == "False" or hypothese.objectD == "True") for hypothese in rule[0]]
+
+        map_variable = {}
+        rule_can_apply = True
+        for i, variable in enumerate(variables): 
+            #If we have ?b 
+            if variable:
+                if not rule[0][i].objectD in map_variable.keys():
+                    map_variable[rule[0][i].objectD] = str(X.iloc[i])
+                elif map_variable[rule[0][i].objectD] != str(X.iloc[i]):
+                    rule_can_apply = False
+            #If we have a True or False
+            else:
+                if rule[0][i].objectD != str(X.iloc[i]):
+                    rule_can_apply = False
+        if rule_can_apply:
+            if not (rule[1].objectD == "False" or rule[1].objectD == "True"):
+                prediction.append(map_variable[rule[1].objectD])
+            else:
+                prediction.append(rule[1].objectD)
+        else:
+            prediction.append("I can't say anything")
     predicts = pd.Series(prediction).value_counts()    
     return democracy(predicts)
 
