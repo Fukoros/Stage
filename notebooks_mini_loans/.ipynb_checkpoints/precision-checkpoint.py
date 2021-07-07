@@ -5,7 +5,6 @@ import multiprocessing
 
 def prediction_right(X, variables, rule):
     map_variable = {}
-#     X = translation(X, description)
     for i, variable in enumerate(variables): 
         #If we have a variable
         if variable:
@@ -29,31 +28,33 @@ def compute_precisions(rules, df, rules_result, index, cptShared, train_index, t
     for rule in rules:  
         columns = [rule.hypotheses[k].predicate for k in range(len(rule.hypotheses))]
         columns.append("approval")
-        
-        res = df[columns].loc[train_index].apply(func=prediction_right, axis=1, variables=[not (rule.conclusion.objectD[0] != "?") for hypothese in rule.hypotheses],\
+
+        res = df[columns].loc[train_index].apply(func=prediction_right, axis=1, variables=[not (hypothese.objectD[0] != "?") for hypothese in rule.hypotheses],\
                                                  rule=rule).value_counts()
-            
+
         if not "False" in res.index:
             res["False"] = 0
-            
+
         if not "True" in res.index:
             res["True"] = 0
-            
+
         rule.setPrecisionTrain(res["True"] / (res["True"]+res["False"]))
 
-        res = df[columns].loc[test_index].apply(func=prediction_right, axis=1, variables=[not (rule.conclusion.objectD[0] != "?") for hypothese in rule.hypotheses],\
+        res = df[columns].loc[test_index].apply(func=prediction_right, axis=1, variables=[not (hypothese.objectD[0] != "?") for hypothese in rule.hypotheses],\
                                                  rule=rule).value_counts()
-            
+
         if not "False" in res.index:
             res["False"] = 0
-            
+
         if not "True" in res.index:
             res["True"] = 0
 
+        if np.isnan(res["True"] / (res["True"]+res["False"])):
+            print(res, rule)
         rule.setPrecisionTest(res["True"] / (res["True"]+res["False"]))
-        
+
         rules_result[str(rule)] = rule
-        
+
         cptShared.value += 1
         if (cptShared.value%100 == 0):
             print(cptShared)
