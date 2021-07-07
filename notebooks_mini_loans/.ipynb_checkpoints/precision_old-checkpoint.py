@@ -3,25 +3,25 @@ import numpy as np
 from multiprocessing import Process, Manager, SimpleQueue
 import multiprocessing
 
-def prediction_right(X, variables, rule):
-    map_variable = {}
-#     X = translation(X, description)
-    for i, variable in enumerate(variables): 
-        #If we have a variable
-        if variable:
-            if not rule.hypotheses[i].objectD in map_variable.keys():
-                map_variable[rule.hypotheses[i].objectD] = str(X.iloc[i])
-            elif map_variable[rule.hypotheses[i].objectD] != str(X.iloc[i]):
-                return "Can't say anything"
-        #If we have a Const
+def prediction_right(X, variable, rule):
+    if variable:
+        somme = sum(X[:-1]) 
+        if somme == len(rule.hypotheses):
+            return str(X["approval"])
+        elif somme == 0:
+            return str(not X["approval"])
         else:
-            if rule.hypotheses[i].objectD != str(X.iloc[i]):
-                return "Can't say anything"
-            
-    if not (rule.conclusion.objectD[0] != "?"):
-        return str(map_variable[rule.conclusion.objectD] == str(X["approval"]))
-    else:
-        return str(rule.conclusion.objectD == str(X["approval"]))
+            return "Can't say anything"
+    else : 
+        if sum([X[i.predicate] == i.objectD for i in rule.hypotheses]) == len(rule.hypotheses):
+            if rule.conclusion.objectD:
+                return str(X["approval"])
+            elif not  rule.conclusion.objectD : 
+                return str(not X["approval"])
+            else:
+                print("WTF")
+        else:
+            return "Can't say anything"
     
 def compute_precisions(rules, df, rules_result, index, cptShared, train_index, test_index):
     print(f"Process n°{index} : Launched")
@@ -30,8 +30,7 @@ def compute_precisions(rules, df, rules_result, index, cptShared, train_index, t
         columns = [rule.hypotheses[k].predicate for k in range(len(rule.hypotheses))]
         columns.append("approval")
         
-        res = df[columns].loc[train_index].apply(func=prediction_right, axis=1, variables=[not (rule.conclusion.objectD[0] != "?") for hypothese in rule.hypotheses],\
-                                                 rule=rule).value_counts()
+        res = df[columns].loc[train_index].apply(func=prediction_right, axis=1, variable=(not type(rule.conclusion.objectD) == type(False)), rule=rule).value_counts()
             
         if not "False" in res.index:
             res["False"] = 0
@@ -41,8 +40,7 @@ def compute_precisions(rules, df, rules_result, index, cptShared, train_index, t
             
         rule.setPrecisionTrain(res["True"] / (res["True"]+res["False"]))
 
-        res = df[columns].loc[test_index].apply(func=prediction_right, axis=1, variables=[not (rule.conclusion.objectD[0] != "?") for hypothese in rule.hypotheses],\
-                                                 rule=rule).value_counts()
+        res = df[columns].loc[test_index].apply(func=prediction_right, axis=1, variable=(not type(rule.conclusion.objectD) == type(False)), rule=rule).value_counts()
             
         if not "False" in res.index:
             res["False"] = 0
@@ -60,12 +58,12 @@ def compute_precisions(rules, df, rules_result, index, cptShared, train_index, t
         
     print(f"Process n°{index} : Finished")
     
-def run_precision(root, indexes, rules_per_cv):
+def run_precision(root, indexes, parameters, rules_per_cv):
     rules_per_CV = {}
 
     df = pd.read_csv(root+"dfSave.csv", index_col=0)
 
-    for para in rules_per_cv:
+    for para in parameters:
         with Manager() as manager:
             rules = rules_per_cv[para]
 

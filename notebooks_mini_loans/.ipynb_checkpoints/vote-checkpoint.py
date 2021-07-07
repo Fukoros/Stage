@@ -12,15 +12,12 @@ import shutil
 from rules import *
 from vote import *
 
-root = "./../data_cv/"
-cv = 3
-
 # ---------------------------------------- SYSTEM OF VOTE -----------------------------------
 
 def safe(X, rules_to_predict):
     predicted_approved = False
     for rule in rules_to_predict.values:
-        variables=[not (hypothese.objectD == "False" or hypothese.objectD == "True") for hypothese in rule[0]]
+        variables=[not (hypothese.objectD[0] != "?") for hypothese in rule[0]]
 
         map_variable = {}
         rule_can_apply = True
@@ -79,12 +76,11 @@ def democracy_proportional(predicts, proportion):
 
 def expert(X, rules_to_predict):
     #Rules have to be sorted
-    
     cpt = 0
     while cpt < len(rules_to_predict):
         
         rule = rules_to_predict.iloc[cpt]        
-        variables=[not (hypothese.objectD == "False" or hypothese.objectD == "True") for hypothese in rule[0]]
+        variables=[not (hypothese.objectD[0] != "?") for hypothese in rule[0]]
 
         map_variable = {}
         rule_can_apply = True
@@ -102,17 +98,17 @@ def expert(X, rules_to_predict):
         if rule_can_apply:
             if not (rule[1].objectD == "False" or rule[1].objectD == "True"):
                 if map_variable[rule[1].objectD] == "True":
-                    return "Approved"
+                    return "Approved", rule.name
                 else:
-                    return "Not Approved"
+                    return "Not Approved", rule.name
             else:
                 if rule[1].objectD == "True":
-                    return "Approved"
+                    return "Approved", rule.name 
                 else:
-                    return "Not Approved"
+                    return "Not Approved", rule.name
         
         cpt+=1
-    return "Not Approved - No rules was able to say anything"
+    return "Not Approved - No rules was able to say anything", None
 
 # ---------------------------------------- Prepare certains VOTE -----------------------------------
 
@@ -120,7 +116,7 @@ def prepare_vote_democracy_proportional(X, rules_to_predict, proportion):
     prediction = []
     for rule in rules_to_predict.values:
         
-        variables=[not (hypothese.objectD == "False" or hypothese.objectD == "True") for hypothese in rule[0]]
+        variables=[not (hypothese.objectD[0] != "?") for hypothese in rule[0]]
 
         map_variable = {}
         rule_can_apply = True
@@ -148,18 +144,18 @@ def prepare_vote_democracy_proportional(X, rules_to_predict, proportion):
 def prepare_vote_democracy(X, rules_to_predict):
     prediction = []
     for rule in rules_to_predict.values:
-        variables=[not (hypothese.objectD == "False" or hypothese.objectD == "True") for hypothese in rule[0]]
+        variables=[not (hypothese.objectD[0] != "?") for hypothese in rule[0]]
 
         map_variable = {}
         rule_can_apply = True
         for i, variable in enumerate(variables): 
-            #If we have ?b 
+            #If we have a variable 
             if variable:
                 if not rule[0][i].objectD in map_variable.keys():
                     map_variable[rule[0][i].objectD] = str(X.iloc[i])
                 elif map_variable[rule[0][i].objectD] != str(X.iloc[i]):
                     rule_can_apply = False
-            #If we have a True or False
+            #If we have a Constant
             else:
                 if rule[0][i].objectD != str(X.iloc[i]):
                     rule_can_apply = False
@@ -206,8 +202,9 @@ def paralel_prediction_res(queue, name, indexes, new_dfs, df, res_count, res_raw
             
             rules_to_predict = new_dfs[para].sort_values(["precision_train", "precision_test"], ascending=False)
         
-            final_prediction_train = df.loc[train_index].apply(vote, rules_to_predict=rules_to_predict, axis=1)
-            final_prediction_test = df.loc[test_index].apply(vote, rules_to_predict=rules_to_predict, axis=1)
+            final_prediction_train, rules_used_train = df.loc[train_index].apply(vote, rules_to_predict=rules_to_predict, axis=1)
+            final_prediction_test, rules_used_test = df.loc[test_index].apply(vote, rules_to_predict=rules_to_predict, axis=1)
+            rules_used[para] = {"train":pd.Series(rules_used_train).value_counts(), "test":pd.Series(rules_used_test).value_counts()}
             
         else:        
             final_prediction_train = df.loc[train_index].apply(vote, rules_to_predict=rules_to_predict, axis=1)
@@ -223,7 +220,7 @@ def paralel_prediction_res(queue, name, indexes, new_dfs, df, res_count, res_raw
         
     print(f"Process n°{name} : Finished")
     
-def paralel_prediction_res_baseline(queue, name, indexes, new_dfs, df, res_count, res_raw, cpt, vote, ranking):
+def paralel_prediction_res_baseline(queue, name, indexes, new_dfs, df, res_count, res_raw, cpt, vote, ranking, rules_used):
     print(f"Process n°{name} : Launched")
     while not queue.empty():
         para = queue.get()
@@ -252,9 +249,14 @@ def paralel_prediction_res_baseline(queue, name, indexes, new_dfs, df, res_count
             
         elif vote == expert:
             rules_to_predict = new_dfs[para].sort_values(ranking[0], ascending=ranking[1])
-                
-            final_prediction_train = df.loc[train_index].apply(vote, rules_to_predict=rules_to_predict, axis=1)
-            final_prediction_test = df.loc[test_index].apply(vote, rules_to_predict=rules_to_predict, axis=1)
+            
+            tp_train = df.loc[train_index].apply(vote, rules_to_predict=rules_to_predict, axis=1, result_type ='expand')
+            final_prediction_train, rules_used_train = tp_train[0], tp_train[1]
+            
+            tp_test = df.loc[test_index].apply(vote, rules_to_predict=rules_to_predict, axis=1, result_type ='expand')
+            final_prediction_test, rules_used_test = tp_test[0], tp_test[1]
+            
+            rules_used[para] = {"train":pd.Series(rules_used_train).value_counts(), "test":pd.Series(rules_used_test).value_counts()}
             
         else:        
             final_prediction_train = df.loc[train_index].apply(vote, rules_to_predict=rules_to_predict, axis=1)
@@ -276,6 +278,7 @@ def prediction_test(root, cv, new_dfs, vote, indexes, baseline, ranking=None):
     
     prediction_per_rules_count = {}
     prediction_per_rules_raw = {}
+    rules_used = {}
 
     df = pd.read_csv(root+"dfSave.csv", index_col=0)
 
@@ -291,11 +294,12 @@ def prediction_test(root, cv, new_dfs, vote, indexes, baseline, ranking=None):
 
         res_count = manager.dict()
         res_raw = manager.dict()
+        rules_used = manager.dict()
         cpt = manager.Value("d",0)
 
         for name in range(processes_to_create):
             if baseline: 
-                x = Process(target=paralel_prediction_res_baseline, args=(q, name, indexes, new_dfs, df, res_count, res_raw, cpt, vote, ranking))
+                x = Process(target=paralel_prediction_res_baseline, args=(q, name, indexes, new_dfs, df, res_count, res_raw, cpt, vote, ranking, rules_used))
                 processes.append(x)
                 x.start()
             else:    
@@ -309,7 +313,8 @@ def prediction_test(root, cv, new_dfs, vote, indexes, baseline, ranking=None):
         print(len(res_count))
         prediction_per_rules_count = res_count.copy()
         prediction_per_rules_raw = res_raw.copy()
-    return prediction_per_rules_count, prediction_per_rules_raw
+        rules_used = rules_used.copy()
+    return prediction_per_rules_count, prediction_per_rules_raw, rules_used
     
 # ---------------------------------------- Post processing -----------------------------------
     
@@ -319,7 +324,7 @@ def compare(prediction, ground_truth):
         return None
     return sum(np.array(prediction) == np.array(ground_truth))/float(len(ground_truth))
 
-def mean_and_std_vote(dfs, name) -> pd.DataFrame:
+def mean_and_std_vote(dfs, name, cv) -> pd.DataFrame:
     already_seen = []
     to_return = {}
     to_return_std = {}
@@ -352,8 +357,8 @@ def count(dictionary):
 def maxScore(X):
     return pd.Series((count(X["train"]), count(X["test"])), index=['train', 'test'])
 
-def bestScorePossible(df, name="Z-Max"):
-    return mean_and_std_vote(pd.DataFrame.from_dict(df, orient="index").apply(maxScore, axis=1, result_type="expand").to_dict("index"), name)[0].sort_index()
+def bestScorePossible(df, cv, name="Z-Max"):
+    return mean_and_std_vote(pd.DataFrame.from_dict(df, orient="index").apply(maxScore, axis=1, result_type="expand").to_dict("index"), name, cv)[0].sort_index()
 
 def merge(df1, df2, df1_std, df2_std):
     return df1.merge(df2, left_index=True, right_index=True), df1_std.merge(df2_std, left_index=True, right_index=True)

@@ -25,10 +25,9 @@ def run_amie(atom_LIST, root, cv, const=False):
     if not const:
         for i in range(cv):
             for atom in atom_LIST:
-                sys.stderr.write(f"{atom}\n")
+                print(f"{atom}")
                 data = f"{root}CV_train_{i}.tsv"
                 res_rules_raw[f"CV={i}-A={atom}"] = check_output(f'java -jar ./../amie3.jar -htr approval -maxad {atom} {data}', shell=True)
-                print(sep)
     else:
         with Manager() as manager:
             q = SimpleQueue()

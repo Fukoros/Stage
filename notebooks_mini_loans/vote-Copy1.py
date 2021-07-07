@@ -17,7 +17,7 @@ from vote import *
 def safe(X, rules_to_predict):
     predicted_approved = False
     for rule in rules_to_predict.values:
-        variables=[not (hypothese.objectD[0] != "?") for hypothese in rule[0]]
+        variables=[not (hypothese.objectD == "False" or hypothese.objectD == "True") for hypothese in rule[0]]
 
         map_variable = {}
         rule_can_apply = True
@@ -80,7 +80,7 @@ def expert(X, rules_to_predict):
     while cpt < len(rules_to_predict):
         
         rule = rules_to_predict.iloc[cpt]        
-        variables=[not (hypothese.objectD[0] != "?") for hypothese in rule[0]]
+        variables=[not (hypothese.objectD == "False" or hypothese.objectD == "True") for hypothese in rule[0]]
 
         map_variable = {}
         rule_can_apply = True
@@ -98,17 +98,17 @@ def expert(X, rules_to_predict):
         if rule_can_apply:
             if not (rule[1].objectD == "False" or rule[1].objectD == "True"):
                 if map_variable[rule[1].objectD] == "True":
-                    return "Approved", rule.name
+                    return "Approved", rule
                 else:
-                    return "Not Approved", rule.name
+                    return "Not Approved", rule
             else:
                 if rule[1].objectD == "True":
-                    return "Approved", rule.name 
+                    return "Approved", rule
                 else:
-                    return "Not Approved", rule.name
+                    return "Not Approved", rule
         
         cpt+=1
-    return "Not Approved - No rules was able to say anything", None
+    return "Not Approved - No rules was able to say anything", rule
 
 # ---------------------------------------- Prepare certains VOTE -----------------------------------
 
@@ -116,7 +116,7 @@ def prepare_vote_democracy_proportional(X, rules_to_predict, proportion):
     prediction = []
     for rule in rules_to_predict.values:
         
-        variables=[not (hypothese.objectD[0] != "?") for hypothese in rule[0]]
+        variables=[not (hypothese.objectD == "False" or hypothese.objectD == "True") for hypothese in rule[0]]
 
         map_variable = {}
         rule_can_apply = True
@@ -144,18 +144,18 @@ def prepare_vote_democracy_proportional(X, rules_to_predict, proportion):
 def prepare_vote_democracy(X, rules_to_predict):
     prediction = []
     for rule in rules_to_predict.values:
-        variables=[not (hypothese.objectD[0] != "?") for hypothese in rule[0]]
+        variables=[not (hypothese.objectD == "False" or hypothese.objectD == "True") for hypothese in rule[0]]
 
         map_variable = {}
         rule_can_apply = True
         for i, variable in enumerate(variables): 
-            #If we have a variable 
+            #If we have ?b 
             if variable:
                 if not rule[0][i].objectD in map_variable.keys():
                     map_variable[rule[0][i].objectD] = str(X.iloc[i])
                 elif map_variable[rule[0][i].objectD] != str(X.iloc[i]):
                     rule_can_apply = False
-            #If we have a Constant
+            #If we have a True or False
             else:
                 if rule[0][i].objectD != str(X.iloc[i]):
                     rule_can_apply = False
@@ -204,7 +204,6 @@ def paralel_prediction_res(queue, name, indexes, new_dfs, df, res_count, res_raw
         
             final_prediction_train, rules_used_train = df.loc[train_index].apply(vote, rules_to_predict=rules_to_predict, axis=1)
             final_prediction_test, rules_used_test = df.loc[test_index].apply(vote, rules_to_predict=rules_to_predict, axis=1)
-            rules_used[para] = {"train":pd.Series(rules_used_train).value_counts(), "test":pd.Series(rules_used_test).value_counts()}
             
         else:        
             final_prediction_train = df.loc[train_index].apply(vote, rules_to_predict=rules_to_predict, axis=1)
@@ -249,13 +248,9 @@ def paralel_prediction_res_baseline(queue, name, indexes, new_dfs, df, res_count
             
         elif vote == expert:
             rules_to_predict = new_dfs[para].sort_values(ranking[0], ascending=ranking[1])
-            
-            tp_train = df.loc[train_index].apply(vote, rules_to_predict=rules_to_predict, axis=1, result_type ='expand')
-            final_prediction_train, rules_used_train = tp_train[0], tp_train[1]
-            
-            tp_test = df.loc[test_index].apply(vote, rules_to_predict=rules_to_predict, axis=1, result_type ='expand')
-            final_prediction_test, rules_used_test = tp_test[0], tp_test[1]
-            
+                
+            final_prediction_train, rules_used_train = df.loc[train_index].apply(vote, rules_to_predict=rules_to_predict, axis=1)
+            final_prediction_test, rules_used_test = df.loc[test_index].apply(vote, rules_to_predict=rules_to_predict, axis=1)
             rules_used[para] = {"train":pd.Series(rules_used_train).value_counts(), "test":pd.Series(rules_used_test).value_counts()}
             
         else:        

@@ -3,9 +3,26 @@ import numpy as np
 from multiprocessing import Process, Manager, SimpleQueue
 import multiprocessing
 
-def prediction_right(X, variables, rule):
+def identity(X, description):
+    return X
+
+def groups(X, description):
+    res = []
+    for column in X.index[:-1]:
+        added = False
+        for j in description.index:
+            if X[column] < description[column].iloc[j]:
+                res.append(j)
+                added = True
+                break
+        if not added:
+            res.append(j+1)
+    res.append(X["approval"])
+    return pd.Series(res, index=X.index)
+
+def prediction_right(X, variables, rule, translation, description):
     map_variable = {}
-#     X = translation(X, description)
+    X = translation(X, description)
     for i, variable in enumerate(variables): 
         #If we have a variable
         if variable:
@@ -23,15 +40,15 @@ def prediction_right(X, variables, rule):
     else:
         return str(rule.conclusion.objectD == str(X["approval"]))
     
-def compute_precisions(rules, df, rules_result, index, cptShared, train_index, test_index):
+def compute_precisions(rules, df, rules_result, index, cptShared, train_index, test_index, translation, description):
     print(f"Process n°{index} : Launched")
     
     for rule in rules:  
         columns = [rule.hypotheses[k].predicate for k in range(len(rule.hypotheses))]
         columns.append("approval")
         
-        res = df[columns].loc[train_index].apply(func=prediction_right, axis=1, variables=[not (rule.conclusion.objectD[0] != "?") for hypothese in rule.hypotheses],\
-                                                 rule=rule).value_counts()
+        res = df[columns].loc[train_index].apply(func=prediction_right, axis=1, variables=[not (hypothese.objectD == "False" or hypothese.objectD == "True") for hypothese in rule.hypotheses],\
+                                                 rule=rule, translation=translation, description=description).value_counts()
             
         if not "False" in res.index:
             res["False"] = 0
@@ -41,8 +58,8 @@ def compute_precisions(rules, df, rules_result, index, cptShared, train_index, t
             
         rule.setPrecisionTrain(res["True"] / (res["True"]+res["False"]))
 
-        res = df[columns].loc[test_index].apply(func=prediction_right, axis=1, variables=[not (rule.conclusion.objectD[0] != "?") for hypothese in rule.hypotheses],\
-                                                 rule=rule).value_counts()
+        res = df[columns].loc[test_index].apply(func=prediction_right, axis=1, variables=[not (hypothese.objectD == "False" or hypothese.objectD == "True") for hypothese in rule.hypotheses],\
+                                                 rule=rule, translation=translation, description=description).value_counts()
             
         if not "False" in res.index:
             res["False"] = 0
@@ -60,7 +77,7 @@ def compute_precisions(rules, df, rules_result, index, cptShared, train_index, t
         
     print(f"Process n°{index} : Finished")
     
-def run_precision(root, indexes, rules_per_cv):
+def run_precision(root, indexes, rules_per_cv, translation=identity, description=None):
     rules_per_CV = {}
 
     df = pd.read_csv(root+"dfSave.csv", index_col=0)
@@ -81,7 +98,7 @@ def run_precision(root, indexes, rules_per_cv):
             rules_list = list(rules)
 
             for index in range(processes_to_create):
-                x = Process(target=compute_precisions, args=(rules_list[int(np.floor(index*len(rules_list)/processes_to_create)): int(np.floor((index+1)*len(rules_list)/processes_to_create))], df, rules_result, index, cpt_total, train_index, test_index))
+                x = Process(target=compute_precisions, args=(rules_list[int(np.floor(index*len(rules_list)/processes_to_create)): int(np.floor((index+1)*len(rules_list)/processes_to_create))], df, rules_result, index, cpt_total, train_index, test_index, translation, description))
                 processes.append(x)
                 x.start()
 

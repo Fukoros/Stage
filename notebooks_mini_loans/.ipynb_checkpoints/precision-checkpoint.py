@@ -5,23 +5,24 @@ import multiprocessing
 
 def prediction_right(X, variables, rule):
     map_variable = {}
+#     X = translation(X, description)
     for i, variable in enumerate(variables): 
-        #If we have ?b 
+        #If we have a variable
         if variable:
             if not rule.hypotheses[i].objectD in map_variable.keys():
                 map_variable[rule.hypotheses[i].objectD] = str(X.iloc[i])
             elif map_variable[rule.hypotheses[i].objectD] != str(X.iloc[i]):
                 return "Can't say anything"
-        #If we have a True or False
+        #If we have a Const
         else:
             if rule.hypotheses[i].objectD != str(X.iloc[i]):
                 return "Can't say anything"
             
-    if not (rule.conclusion.objectD == "False" or rule.conclusion.objectD == "True"):
-        return map_variable[rule.conclusion.objectD]
+    if not (rule.conclusion.objectD[0] != "?"):
+        return str(map_variable[rule.conclusion.objectD] == str(X["approval"]))
     else:
-        return rule.conclusion.objectD
-
+        return str(rule.conclusion.objectD == str(X["approval"]))
+    
 def compute_precisions(rules, df, rules_result, index, cptShared, train_index, test_index):
     print(f"Process n°{index} : Launched")
     
@@ -29,7 +30,7 @@ def compute_precisions(rules, df, rules_result, index, cptShared, train_index, t
         columns = [rule.hypotheses[k].predicate for k in range(len(rule.hypotheses))]
         columns.append("approval")
         
-        res = df[columns].loc[train_index].apply(func=prediction_right, axis=1, variables=[not (hypothese.objectD == "False" or hypothese.objectD == "True") for hypothese in rule.hypotheses],\
+        res = df[columns].loc[train_index].apply(func=prediction_right, axis=1, variables=[not (rule.conclusion.objectD[0] != "?") for hypothese in rule.hypotheses],\
                                                  rule=rule).value_counts()
             
         if not "False" in res.index:
@@ -40,7 +41,7 @@ def compute_precisions(rules, df, rules_result, index, cptShared, train_index, t
             
         rule.setPrecisionTrain(res["True"] / (res["True"]+res["False"]))
 
-        res = df[columns].loc[test_index].apply(func=prediction_right, axis=1, variables=[not (hypothese.objectD == "False" or hypothese.objectD == "True") for hypothese in rule.hypotheses],\
+        res = df[columns].loc[test_index].apply(func=prediction_right, axis=1, variables=[not (rule.conclusion.objectD[0] != "?") for hypothese in rule.hypotheses],\
                                                  rule=rule).value_counts()
             
         if not "False" in res.index:
